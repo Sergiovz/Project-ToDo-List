@@ -26,6 +26,7 @@ button.addEventListener('click', () => {
     listaDesordenada.append(contenedorDiv);
     contenedorDiv.appendChild(nuevaTarea);
     contenedorDiv.appendChild(buttonDelete);
+    listaDesordenada.append(document.createElement('hr'));
 
     document.getElementById("nuevaTarea").value = "";
 });

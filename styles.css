@@ -10,50 +10,53 @@ body {
 }
 
 .container {
-    height: 100vh;
+    width: 90%;
+    margin: auto;
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 50px;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.center {
+    text-align: center;
 }
 
 .entrada {
     padding: 8px;
     font-family: inherit;
     border-style: none;
-    border-radius: 6px;
 }
 
 .boton {
-    margin-left: 6px;
     padding: 7px;
     font-family: inherit;
-    background-color: #444;
-    color: #ffd;
-    font-size: 16px;   
+    background-color: #4ac724;
+    color: #fafae0;
+    font-size: 16px;
     border-style: none;
-    border-radius: 6px;
-}
-
-ul {  
-    margin: 20px 0;
-    padding: 6px;
 }
 
 .contenedorDesordenado {
-    box-sizing: border-box;
     margin-bottom: 10px;
     padding: 6px;
+    text-transform: capitalize;
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 .lista {
     list-style-type: none;
-    margin-bottom: 6px;    
-    display: inline-block;
 }
 
 .buttonColor {
